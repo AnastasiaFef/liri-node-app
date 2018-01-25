@@ -1,0 +1,105 @@
+======================================
+
+Executing command my-tweets
+Tweet #1:Post # 21 !!!!!! 🍾🎉💃⚡️🕺😄🎂🥂🎆🎊🎈☺️🍾🎉💃⚡️🕺😄🎂🥂🎆🎊🎈☺️
+Tweet #2:Post # 20 !!!!!! 🍾🎉💃⚡️🕺😄🎂🥂🎆🎊🎈☺️
+Tweet #3:I'll call my son 'js' instead of 'jr' 🧒
+Tweet #4:I'll name my cat JS 😸
+Tweet #5:It's not Java....
+Tweet #6:Oh how I love JavaScript 😍
+Tweet #7:JAVA SCRIPT 👩‍💻
+Tweet #8:Ohhhhh JS
+Tweet #9:JS... Two letters, but so much meaning... 🙆‍♀️
+Tweet #10:Sorry, I can't answer your call right now - on a date with JS ❤️
+Tweet #11:I have a reason to wake up every day - JS is waiting for me!
+Tweet #12:I have no better friend than JS
+Tweet #13:JS knows how to make me happy - it does anything I tell it to do. Smart JS 🧠
+Tweet #14:JS is my best friend
+Tweet #15:Ahhhhh so cute! 😍 https://t.co/ghhyeSIGPZ
+Tweet #16:Wow https://t.co/ujiNf8jZ6n
+Tweet #17:Me and JS... Till the early morning
+Tweet #18:JS = java script
+Tweet #19:I can't decide if I love JS more that puppies... 👩‍💻💔🐶
+Tweet #20:Couldn't sleep well tonight - was thinking about JS - my new love ❤️
+
+
+======================================
+
+Executing command movie-this for "Star Wars"
+______________________________________ 
+MOVIE NAME:
+ > Star Wars: Episode IV - A New Hope
+______________________________________ 
+MOVIE YEAR:
+ > 1977
+______________________________________ 
+IMDB RATING:
+8.7/10
+______________________________________ 
+ROTTEN TOMATOES RATING:
+93%
+______________________________________ 
+COUNTRY:
+ > USA
+______________________________________ 
+LANGUAGE:
+ > English
+______________________________________ 
+PLOT:
+ > Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle-station while also attempting to rescue Princess Leia from the evil Darth Vader.
+______________________________________ 
+ACTORS:
+ > Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing
+
+
+======================================
+
+Executing command spotify-this-song for The Sign Ace of Base
+______________________________________ 
+SONG NAME:
+ > The Sign
+______________________________________ 
+ALBUM NAME:
+ > The Sign (US Album) [Remastered]
+______________________________________ 
+ARTIST:
+ > Ace of Base
+______________________________________ 
+PREVIEW LINK:
+ > https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=5ab4c678ddeb43d5aff779320019b729
+______________________________________ 
+OPEN SONG:
+ > https://open.spotify.com/track/0hrBpAOgrt8RXigk83LLNE
+
+
+======================================
+
+Executing command movie-this for Anastasia
+______________________________________ 
+MOVIE NAME:
+ > Anastasia
+______________________________________ 
+MOVIE YEAR:
+ > 1997
+______________________________________ 
+IMDB RATING:
+7.1/10
+______________________________________ 
+ROTTEN TOMATOES RATING:
+85%
+______________________________________ 
+COUNTRY:
+ > USA
+______________________________________ 
+LANGUAGE:
+ > English, Russian, French
+______________________________________ 
+PLOT:
+ > The last surviving child of the Russian Royal Family joins two con men to reunite with her grandmother, the Dowager Empress, while the undead Rasputin seeks her death.
+______________________________________ 
+ACTORS:
+ > Meg Ryan, John Cusack, Kelsey Grammer, Christopher Lloyd
+
+
+======================================
+
