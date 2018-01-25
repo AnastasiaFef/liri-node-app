@@ -42,12 +42,14 @@ switch(userCommand){
 function tweets(){
     //This will show your last 20 tweets and when they were created at in your terminal/bash window;
     console.log("tweeting")
-    twitter.get('statuses/user_timeline', {screen_name:"cnn",rejectUnauthorized:false}, function(error, tweets, response) {
-        if (!error) {
-            console.log(tweets);
+    twitter.get('statuses/user_timeline', {screen_name:"meandjs",limit:20,rejectUnauthorized:false}, function(error, tweets, response) {
+        if (error) {
+            console.log(error);
+            return;
         }
-        console.log(error);
-        console.log(response)
+        tweets.forEach(function(tweet){
+            console.log(tweet.text);
+        })
     });
 //     twitter.get('search/tweets', {q: 'node.js'}, function(error, tweets, response) {
 //         // console.log(tweets);
