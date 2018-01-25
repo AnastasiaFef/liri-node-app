@@ -54,6 +54,94 @@ ACTORS:
 
 ======================================
 
+Executing command spotify-this-song for mockingbird
+______________________________________ 
+SONG NAME:
+ > Mockingbird
+______________________________________ 
+ALBUM NAME:
+ > Encore (Deluxe)
+______________________________________ 
+ARTIST:
+ > Eminem 
+______________________________________ 
+OPEN SONG:
+ > https://open.spotify.com/track/561jH07mF1jHuk7KlaeF0s
+
+
+======================================
+Executing command spotify-this-song for mockingbird
+______________________________________ 
+SONG NAME:
+ > Mockingbird
+______________________________________ 
+ALBUM NAME:
+ > Encore (Deluxe)
+______________________________________ 
+ARTIST:
+ > Eminem 
+______________________________________ 
+OPEN SONG:
+ > https://open.spotify.com/track/561jH07mF1jHuk7KlaeF0s
+
+
+======================================
+
+______________________________________ 
+Lyrics for Mockingbird by Eminem :
+
+Yeah
+I know sometimes things may not always make sense to you right now
+But hey, what daddy always tell you?
+Straighten up little soldier
+Stiffen up that upper lip
+What you crying about?
+You got me
+
+Hailie, I know you miss your mom
+And I know you miss your dad when I'm gone
+But I'm trying to give you the life that I never had
+I can see you're sad
+Even when you smile
+Even when you laugh
+I can see it in your eyes
+Deep inside, you wanna cry
+'Cause you're scared
+I ain't there?
+Daddy's with you in your prayers
+No more crying
+Wipe them tears
+Daddy's here
+No more nightmares
+We gonna pull together through it
+We gon' do it
+Laney, uncle's crazy ain't he?
+Yeah but he loves you girl and you better know it
+We're all we got in this world
+When it spins
+When it swirls
+When it whirls
+When it twirls
+Two little beautiful girls
+Looking puzzled, in a daze
+I know it's confusing you
+Daddy's always on the move
+Mama's always on the news
+I try to keep you sheltered from it
+But somehow it seems, the harder that I try to do that
+The more it backfires on me
+All the things, growing up
+As daddy that he had to see
+Daddy don't want you to see
+But you see just as much as he did
+We did not plan it to be this way
+Your mother and me
+...
+
+******* This Lyrics is NOT for Commercial use *******
+
+======================================
+
 Executing command spotify-this-song for The Sign Ace of Base
 ______________________________________ 
 SONG NAME:
@@ -63,7 +151,7 @@ ALBUM NAME:
  > The Sign (US Album) [Remastered]
 ______________________________________ 
 ARTIST:
- > Ace of Base
+ > Ace of Base 
 ______________________________________ 
 PREVIEW LINK:
  > https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=5ab4c678ddeb43d5aff779320019b729
@@ -74,31 +162,132 @@ OPEN SONG:
 
 ======================================
 
-Executing command movie-this for Anastasia
+______________________________________ 
+Lyrics for The Sign by Ace of Base :
+
+I
+I got a new life
+You would hardly recognize me
+I'm so glad
+How can a person like me care for you
+Why do I bother
+When you're not the one for me
+
+Is enough enough
+I saw the sign and it opened up my eyes
+I saw the sign
+Life is demanding without understanding
+I saw the sign and it opened up my eyes
+I saw the sign
+No one's gonna drag you up
+To get into the light where you belong
+...
+
+******* This Lyrics is NOT for Commercial use *******
+
+======================================
+
+Executing command spotify-this-song for beautiful liar
+______________________________________ 
+SONG NAME:
+ > Beautiful Liar - Main Version / Album Version
+______________________________________ 
+ALBUM NAME:
+ > B'Day Deluxe Edition
+______________________________________ 
+ARTISTS:
+ > Beyoncé Shakira 
+______________________________________ 
+PREVIEW LINK:
+ > https://p.scdn.co/mp3-preview/4123e211fa9f615320415bba6faf4bfabd163e51?cid=5ab4c678ddeb43d5aff779320019b729
+______________________________________ 
+OPEN SONG:
+ > https://open.spotify.com/track/2HWWNoWEEEECwZhAiLg7ib
+
+
+======================================
+
+______________________________________ 
+Lyrics for Beautiful Liar - Main Version / Album Version by Beyoncé Shakira :
+
+Ay, ay, ay
+Nobody likes being played
+Oh, Beyoncé, Beyoncé
+Oh, Shakira, Shakira (hey)
+He said I'm worth it, his one desire
+I know things about ‘em that you wouldn't wanna read about
+He kissed me, his one and only, beautiful liar
+Tell me how you tolerate the things you just found out about
+You never know
+Why are we the ones who suffer
+I have to let go
+He won't be the one to cry
+(Ay) let's not kill the karma
+(Ay) let's not start a fight
+(Ay) it's not worth the drama
+For a beautiful liar
+(Oh) can't we laugh about it
+(Oh) it's not worth our time
+...
+
+******* This Lyrics is NOT for Commercial use *******
+
+======================================
+
+Executing command movie-this for Mr. Nobody
 ______________________________________ 
 MOVIE NAME:
- > Anastasia
+ > Mr. Nobody
 ______________________________________ 
 MOVIE YEAR:
- > 1997
+ > 2009
+______________________________________ 
+IMDB RATING:
+7.9/10
+______________________________________ 
+ROTTEN TOMATOES RATING:
+66%
+______________________________________ 
+COUNTRY:
+ > Belgium, Germany, Canada, France, USA, UK
+______________________________________ 
+LANGUAGE:
+ > English, Mohawk
+______________________________________ 
+PLOT:
+ > A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+______________________________________ 
+ACTORS:
+ > Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+
+
+======================================
+
+Executing command movie-this for 8 mile
+______________________________________ 
+MOVIE NAME:
+ > 8 Mile
+______________________________________ 
+MOVIE YEAR:
+ > 2002
 ______________________________________ 
 IMDB RATING:
 7.1/10
 ______________________________________ 
 ROTTEN TOMATOES RATING:
-85%
+76%
 ______________________________________ 
 COUNTRY:
- > USA
+ > USA, Germany
 ______________________________________ 
 LANGUAGE:
- > English, Russian, French
+ > English
 ______________________________________ 
 PLOT:
- > The last surviving child of the Russian Royal Family joins two con men to reunite with her grandmother, the Dowager Empress, while the undead Rasputin seeks her death.
+ > A young rapper, struggling with every aspect of his life, wants to make it big but his friends and foes make this odyssey of rap harder than it may seem.
 ______________________________________ 
 ACTORS:
- > Meg Ryan, John Cusack, Kelsey Grammer, Christopher Lloyd
+ > Eminem, Kim Basinger, Mekhi Phifer, Brittany Murphy
 
 
 ======================================

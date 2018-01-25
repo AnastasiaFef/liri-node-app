@@ -10,7 +10,10 @@ var twitterKeys = {
     access_token_secret: process.env.TWITTER_ACCESS_TOKEN_SECRET,
 }
 
+var musixKey =  process.env.MUSIXMATCH_API_KEY
+
 module.exports = {
     spotifyKeys: spotifyKeys,
     twitterKeys: twitterKeys,
+    musixKey: musixKey,
 }

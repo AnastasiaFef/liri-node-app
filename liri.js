@@ -4,6 +4,7 @@ var Twitter = require('twitter');
 var Spotify = require('node-spotify-api');
 var request = require('request');
 var keys = require('./keys.js');
+var inquirer = require('inquirer');
 
 var userInput = process.argv[3];
 var userCommand = process.argv[2];
@@ -67,7 +68,8 @@ function spotifyIt(){
         query: userInput 
     }).then(function(response) {
         output += '______________________________________ \nSONG NAME:\n';
-        output += ' > ' + response.tracks.items[0].name + '\n';
+        var songName = response.tracks.items[0].name;
+        output += ' > ' + songName + '\n';
         output += '______________________________________ \nALBUM NAME:\n';
         output += ' > ' + response.tracks.items[0].album.name + '\n';
         if(response.tracks.items[0].artists.length>1){
@@ -76,10 +78,12 @@ function spotifyIt(){
         else{
             output += '______________________________________ \nARTIST:\n';
         }
-        // for name/s return every NAME in array. for each in array  
+        // for name/s return every NAME in array. for each in array 
+        var artistName = '';
         response.tracks.items[0].artists.forEach(function(artist){
-            output += ' > ' + artist.name + '\n';
+            artistName += artist.name + " "
         })
+        output += ' > ' + artistName + '\n';
         if(response.tracks.items[0].preview_url){
             output += '______________________________________ \nPREVIEW LINK:\n';
             output += ' > ' + response.tracks.items[0].preview_url + '\n';
@@ -90,8 +94,35 @@ function spotifyIt(){
         console.log(output);
         saveToLog(output);
         signIt();
+        //ask user if needs lyrics?
+        inquirer.prompt([
+            {
+                type: 'confirm',
+                message: 'Want to get lyrics for ' + songName + ' by ' + artistName + '?',
+                name: 'needLyrics',
+                default: true,
+            }
+        ]).then(function(inquirerResponse){
+            if(inquirerResponse.needLyrics){
+                songLyrics(songName, artistName);
+            }
+        });
     }).catch(function(err) {
         console.log(err);
+    });
+}
+
+function songLyrics(songName, artistName){
+    output = '______________________________________ \n' 
+    output += "Lyrics for " + songName + " by " + artistName + ":" + "\n\n";
+    request("https://api.musixmatch.com/ws/1.1/matcher.lyrics.get?format=json&callback=callback&q_track=" + songName + "&q_artist=" + artistName + "&apikey=119f9afc095b3b481b537eea5e53c398", function(error, response, body){
+        if (!error && response.statusCode === 200) {
+            output += (JSON.parse(body).message.body.lyrics.lyrics_body);
+            
+            console.log(output);
+            saveToLog(output);
+            signIt();
+        }
     });
 }
 
